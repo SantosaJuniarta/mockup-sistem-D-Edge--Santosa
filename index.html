@@ -1,43 +1,100 @@
 <!DOCTYPE html>
 <html lang="id">
-
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Profil - Santosa jhuniananta</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            background-color: #ffcce0;
-            /* warna pink lembut */
-            padding: 50px;
-        }
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SmartAudit Hotel System - Muhamad Rendi Maulana</title>
+  <style>
+    body {
+      font-family: "Poppins", Arial, sans-serif;
+      background-color: #0d0d0d;
+      color: #f8f8f8;
+      margin: 0;
+      padding: 40px 20px;
+      text-align: center;
+    }
 
-        img {
-            border-radius: 50%;
-            width: 200px;
-            height: 200px;
-            object-fit: cover;
-            margin-top: 20px;
-            border: 4px solid #fff;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-        }
+    .card {
+      background-color: #1a1a1a;
+      border: 2px solid #ffcc00;
+      border-radius: 16px;
+      box-shadow: 0 0 25px rgba(255, 204, 0, 0.15);
+      padding: 30px 40px;
+      max-width: 700px;
+      margin: 0 auto 40px;
+    }
 
-        h1 {
-            color: #b30059;
-        }
+    img.profile {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid #ffcc00;
+      margin-bottom: 15px;
+    }
 
-        h2 {
-            color: #660033;
-        }
-    </style>
+    h1 {
+      color: #ffcc00;
+      font-size: 24px;
+      margin: 15px 0;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    h2 {
+      font-size: 18px;
+      margin: 5px 0;
+      color: #ffffff;
+    }
+
+    p {
+      color: #d9d9d9;
+      line-height: 1.6;
+      font-size: 15px;
+      margin: 15px 0;
+    }
+
+    .footer {
+      margin-top: 20px;
+      font-size: 13px;
+      color: #b3b3b3;
+    }
+
+    .mockup {
+      margin-top: 40px;
+    }
+
+    .mockup img {
+      width: 100%;
+      max-width: 900px;
+      border-radius: 16px;
+      border: 2px solid #ffcc00;
+      box-shadow: 0 0 20px rgba(255, 204, 0, 0.2);
+      transition: transform 0.3s ease;
+    }
+
+    .mockup img:hover {
+      transform: scale(1.02);
+    }
+
+  </style>
 </head>
-
 <body>
-    <h1>Santosa jhuniananta</h1>
-    <h2>NIM: 222611010</h2>
-    <img src="image.jpg" alt="Foto" />
-</body>
+  <div class="card">
+    <img src="image.jpg" alt="Foto Profil" class="profile">
+    <h2>Santosa Juniarta</h2>
+    <h1>SmartAudit Hotel System</h1>
+    <p>
+      SmartAudit Hotel System adalah sistem berbasis web yang membantu proses audit harian di hotel
+      agar lebih cepat dan otomatis. Sistem ini mengintegrasikan data transaksi dari setiap departemen
+      seperti Front Office, F&B, dan Housekeeping ke dalam satu database terpusat. Sistem juga menampilkan
+      laporan pendapatan harian secara real-time serta memberikan notifikasi jika terdapat selisih data.
+    </p>
+    <div class="footer">Universitas Ma'soem</div>
+  </div>
 
+  <div class="mockup">
+    <img src="mockup1.png" alt="Mockup SmartAudit Hotel System">
+  </div>
+</body>
 </html>
